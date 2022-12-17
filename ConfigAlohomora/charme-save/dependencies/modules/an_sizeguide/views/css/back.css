@@ -1,0 +1,57 @@
+/**
+ * 2021 Anvanto
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ *  @author Anvanto <anvantoco@gmail.com>
+ *  @copyright  2021 Anvanto
+ *  @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of Anvanto
+ */
+
+#an_sizeguide_ajax-product-list.an_sizeguide_ajax_product_list { border: 1px solid #ccc; padding: 0;}
+#an_sizeguide_ajax-product-list.an_sizeguide_ajax_product_list:empty { display: none; }
+
+.an_sizeguide_products-line,
+#an_sizeguide_ajax-product-list.an_sizeguide_ajax_product_list li {
+  cursor: pointer;
+  display: table;
+  list-style: none;
+  margin: 0;
+  min-width: 300px;
+  width: 100%;
+}
+#an_sizeguide_ajax-product-list.an_sizeguide_ajax_product_list li {
+  padding: 5px;
+}
+.an_sizeguide_products-line {
+  padding: 5px 5px 5px 0px;
+}
+
+.an_sizeguide_products-line .material-icons {
+  font-size: 17px;
+}
+
+#an_sizeguide_ajax-product-list li:hover {
+  background: #3ed2f0;
+}
+
+#an_sizeguide_ajax-product-list li img,
+.an_sizeguide_products img {
+  width: 50px; display: inline-block; 
+}
+
+.an_sizeguide_products-line .label,
+#an_sizeguide_ajax-product-list.an_sizeguide_ajax_product_list li .label {
+  color: #000;
+  /* width: calc(100% - 50px); */
+  width: 100%;
+  display: inline-block;
+  white-space: normal;
+  text-align: left;
+  vertical-align: middle;	
+}

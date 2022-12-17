@@ -1,0 +1,22 @@
+.anthemeshipping-line { position: relative; }
+.anthemeshipping-line p {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.anthemeshipping-line .btn-close-line {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-close-line i { font-size: 14px; }
+@media (max-width: 480px) {
+  .anthemeshipping-line,
+  .anthemeshipping-link {
+    display: none;
+  }
+}

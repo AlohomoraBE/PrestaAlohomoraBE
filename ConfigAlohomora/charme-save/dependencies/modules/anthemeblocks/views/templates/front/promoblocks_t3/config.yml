@@ -1,0 +1,12 @@
+name: Promo blocks type 3
+description: 
+enabled_text: false
+required_text: false
+enabled_link: false
+enabled_image: false
+css:
+  -
+    path: views/templates/front/promoblocks_t3/css/style.css
+    priority: 200
+    position: head
+    server: local    

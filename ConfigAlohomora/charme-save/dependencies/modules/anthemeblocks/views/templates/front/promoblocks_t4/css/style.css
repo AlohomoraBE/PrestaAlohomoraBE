@@ -1,0 +1,111 @@
+.anthemeblocks-promoblocks {
+  display: flex;
+  justify-content: center;
+  max-width: 1903px;
+  margin: 0 auto 75px;
+}
+
+.promoblocks-item {
+  width: 100%;
+  max-width: 953px;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+.promoblocks-img {
+  width: 100%;
+  height: 100%;
+}
+.promoblocks-item .promoblocks-desc { 
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.promoblocks-item_left .promoblocks-desc {
+  justify-content: flex-start;
+  padding: 25px 59px;
+}
+.promoblocks-item_center .promoblocks-desc {
+  justify-content: center;
+  padding: 25px 30px;
+}
+.promoblocks-item_center .promoblocks-desc_wrap {
+  margin-left: 0;
+  transform: translateX(23%);
+}
+.promoblocks-item_right .promoblocks-desc {
+  justify-content: flex-end;
+  padding: 25px 59px;
+}
+.promoblocks-item .promoblocks-desc_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.promoblocks-desc h2 {
+  font-size: 26px;
+  line-height: 1;
+  margin-top: 2px;
+  margin-bottom: 9px;
+  color: #000;
+  font-weight: 400;
+}
+.promoblocks-desc p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 300px;
+  margin-bottom: 0;
+}
+
+/*** effects ***/
+
+@media (max-width: 1024px) {
+  .anthemeblocks-promoblocks {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .promoblocks-img {
+    background-size: cover!important;
+  }
+  .promoblocks-item {
+    max-width: 100%!important;
+  }
+  .promoblocks-item .promoblocks-desc {
+    justify-content: flex-start!important;
+  }
+  .promoblocks-item .promoblocks-desc_wrap {
+    margin: 0!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .promoblocks-desc h2 {
+    max-width: 100%;
+    font-size: 24px;
+    margin-bottom: 0;
+    line-height: 40px;
+  }
+  .promoblocks-desc p {
+    margin-bottom: 0;
+  }
+  
+}
+
+/*** effects ***/
+.promoblocks-item {
+  overflow: hidden;
+}
+.promoblocks-img {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.promoblocks-item:hover .promoblocks-img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

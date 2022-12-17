@@ -1,0 +1,32 @@
+#scrolltopbtn {
+	border: 0px solid #000000;
+	border-radius: 20px;
+	position: fixed;
+	top: auto;
+	bottom: 25px;
+	left: auto;
+	right: 25px;
+	opacity: 1.00;
+	background-color: #000000;
+	width: 40px;
+	height: 40px;
+	
+	cursor: pointer;
+	z-index: 9999;
+
+  
+  justify-content: center;
+  align-items: center;
+  
+	display: none;
+
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+
+#scrolltopbtn svg {
+}
+
+#scrolltopbtn:hover { opacity: 1 }

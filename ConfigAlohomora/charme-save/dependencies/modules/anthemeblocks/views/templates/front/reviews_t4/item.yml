@@ -1,0 +1,15 @@
+name: Reviews
+description: 
+enabled_text: true
+required_text: false
+enabled_link: true
+enabled_image: true
+fields:
+  -
+    col: 2
+    type: text
+    validator: isEmail
+    name: email
+    label: Email
+    required: true
+    default_value: ""

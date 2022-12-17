@@ -1,0 +1,39 @@
+name: Block category big-item
+description: 
+enabled_text: true
+required_text: false
+enabled_link: true
+enabled_image: true
+fields:
+  -
+    col: 1
+    type: select
+    name: textpostion
+    label: Content Position
+    options:
+      query:
+        -
+            name: left
+            value: left
+        -
+            name: center
+            value: center
+        -
+            name: right
+            value: right
+      id: value
+      name: name
+  - col: 1
+    type: select
+    name: bgpostion
+    label: Background Position
+    options:
+      query:
+        - name: left
+          value: left
+        - name: center
+          value: center
+        - name: right
+          value: right
+      id: value
+      name: name

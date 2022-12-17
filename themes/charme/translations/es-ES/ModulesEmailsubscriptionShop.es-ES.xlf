@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/fastuser/data/www/master09.anvanto.com/lib" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="1c2bd6fd5aa6271d9b1697321a02c98f">
+        <source>Subscribe to mailing list to receive updates on new arrivals, special offers and other discount information</source>
+        <target>Subscribe to mailing list to receive updates on new arrivals, special offers and other discount information</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

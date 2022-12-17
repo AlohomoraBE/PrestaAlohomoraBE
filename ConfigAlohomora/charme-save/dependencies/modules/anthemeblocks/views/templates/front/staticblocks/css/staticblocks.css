@@ -1,0 +1,53 @@
+.banner-wr {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+.banner-wr .product-banner {
+    position: relative;
+    background-color: #f8f9fc;
+    overflow: hidden;
+}
+.banner-wr .product-banner img {
+    height: auto;
+    max-width: 100%;
+}
+.banner-wr .product-banner > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.banner-wr .product-banner .banner-text-bl {
+    position: absolute;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.page-home .product-banner .banner-text-bl a:after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: -25px;
+    width: 17px;
+    height: 10px;
+    background: url(../img/Arrow.png) top left no-repeat;
+    transition: all .5s;
+}
+@media (max-width: 1200px) {
+    .banner-wr .product-banner {
+       margin-right: auto;
+       margin-left: auto;
+       margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .banner-wr .product-banner .banner-text-bl p { margin-bottom: 15px; }
+}

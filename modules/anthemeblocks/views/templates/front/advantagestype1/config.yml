@@ -1,0 +1,40 @@
+name: Advantages and Additional Text. Type 1
+description: 
+enabled_text: true
+required_text: false
+enabled_image: true
+enabled_link: false
+css:
+  -
+  path: views/templates/front/advantagestype1/css/advantagestype1.css
+fields:
+  -
+    col: 1
+    type: switch
+    name: canteredimage
+    label: Centered Image
+    default_value: 1
+    values:
+      -
+        id: active_on
+        value: 1
+        label: Enabled
+      -
+        id: active_off
+        value: 0
+        label: Disabled
+  -
+    col: 1
+    type: switch
+    name: additionaltext
+    label: Additionl Text
+    default_value: 1
+    values:
+      -
+        id: active_on
+        value: 1
+        label: Enabled
+      -
+        id: active_off
+        value: 0
+        label: Disabled

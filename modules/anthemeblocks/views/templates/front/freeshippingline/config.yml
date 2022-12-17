@@ -1,0 +1,12 @@
+name: Free Shipping Line
+description: 
+enabled_text: true
+required_text: false
+enabled_image: false
+enabled_link: true
+css:
+  -
+    path: views/templates/front/freeshippingline/css/freeshippingline.css
+js:
+  -
+    path: views/templates/front/freeshippingline/js/freeshipping.js

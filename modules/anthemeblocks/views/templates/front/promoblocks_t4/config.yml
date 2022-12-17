@@ -1,0 +1,18 @@
+name: Promo blocks type 4
+description: 
+enabled_text: false
+required_text: false
+enabled_link: false
+enabled_image: false
+css:
+  -
+    path: views/templates/front/promoblocks_t4/css/style.css
+    priority: 200
+    position: head
+    server: local    
+js:
+  -
+    path: views/templates/front/promoblocks_t4/js/promoblocks.js
+    priority: 250
+    media: screen
+    server: local

@@ -1,0 +1,311 @@
+/**/
+@media (min-width: 768px) {
+    #header .header-nav {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    #header.header5 .container {
+        max-width: 1200px;
+    }
+}
+#header.header5 #_desktop_logo {
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#header.header5 #_desktop_logo a {
+    margin: 0;
+    display: flex;
+}
+
+#header.header5 #_desktop_contact_link {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+#header.header5 #_desktop_contact_link li {
+    display: flex;
+    align-items: center;
+    margin-right: 39px;
+}
+#header.header5 #_desktop_contact_link li svg {
+    margin: 0 8px 0 2px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+#header.header5 .header-right {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header.header5 .amega-menu .anav-top {
+    justify-content: flex-start;
+}
+#_desktop_clientservice {
+    margin-left: 25px;
+
+}
+#_desktop_language_selector {
+    margin-right: 24px;
+}
+#_desktop_user_info a,
+#_desktop_an_wishlist-nav a {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.header-right {
+    align-items: center;
+}
+#header.header5 .blockcart-link span {
+    margin-left: 10px;
+}
+.blockcart-link svg {
+    margin-bottom: 1px;
+    margin-right: 2px;
+}
+#header.header5 #_desktop_cart {
+    margin-left: 32px;
+    margin-right: 2px;
+}
+#header.header5 #_desktop_an_wishlist-nav {
+    margin-left: 29px;
+    margin-bottom: 1px;
+}
+#_desktop_an_wishlist-nav svg {
+    margin-right: 10px;
+}
+#_desktop_user_info {
+    margin-bottom: -1px;
+}
+#_desktop_user_info svg {
+    margin-right: 9px;
+    margin-bottom: 2px;
+}
+.topmenu-wrapper {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+#header.header5 .blockcart-link {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+#header.header5 .amega-menu {
+    width: auto;
+}
+#header.header5 .search-dropdown {
+    margin: 0px 0 2px 0;
+    display: flex;
+    align-items: center;
+    position: static;
+}
+#header.header5 .amenu-item .amenu-link {
+    padding: 16px 39px 16px 0;
+}
+.topmenu-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 47px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.topmenu-wrapper > .container {
+    position: relative;
+}
+#header.header5 .search-button-wrapper {
+    margin: 0 2px 0 0;
+    display: block;
+    width: auto;
+    text-transform: uppercase;
+}
+
+#header.header5 .search-button-wrapper:after,
+#header.header5 .search-button:before {
+    display: none;
+}
+#header.header5 .search-button {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color: #000;
+}
+#header.header5 .search-dropdown .search-widget {
+    top: 0;
+    left: 15px;
+    right: 15px;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    width: 100%; position: absolute;
+    padding: 0;
+}
+.header5 .search-widget > .container {
+    padding: 0;
+}
+#header.header5 .search-widget form {
+    position: static;
+    display: flex;
+    min-width: auto;
+}
+
+#header.header5 .search-widget form input[type=text] {
+    padding: 0;
+    width: 100%;
+    border: 0;
+    background: 0;
+    border-radius: 0;
+    height: 46px;
+}
+#header.header5 .search-widget form button[type=submit] {
+    bottom: 1px;
+    right: 30px;
+    padding: 0;
+}
+.topmenu-left {
+    position: static;
+}
+#header.header5 #_desktop_contact_link li:last-child {
+    margin-right: 0;
+}
+
+#_desktop_user_info .btn-unstyle {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#header.header5 .dropdown i.expand-more {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+#header.header5 #_desktop_user_info,
+#header.header5 #_desktop_user_info a {
+    margin-bottom: 0;
+}
+#header.header5 #_desktop_user_info .account-login {
+    padding-top: 1px;
+}
+#_desktop_an_wishlist-nav svg path {
+    fill: #000!important;
+}
+.amenu-link:before,
+.amenu-link:after {
+    display: none!important;
+}
+#header.header5 .fixed-menu .search-dropdown {
+    display: none;
+}
+#header.header5 .search-widget form input[type=text]::placeholder {
+    color: #a2a2a2!important;
+}
+@media (max-width: 1200px) {
+    #header.header5 .amenu-item .amenu-link {
+        padding: 16px 30px 18px 0;
+    }
+    #header.header5 .topmenu-wrapper > .container {
+        display: block;
+    }
+    .fixed-menu-container {
+        padding: 0;
+    }
+    #header.header5 #_desktop_cart {
+        margin-right: 0;
+    }
+
+}
+@media (max-width: 991px) {
+    #header.header5 .blockcart-link span {
+        margin-left: 0;
+    }
+    #_desktop_user_info {
+        width: auto;
+    }
+    #header.header5 #_desktop_contact_link li {
+        margin-right: 15px;
+    }
+    #_desktop_language_selector {
+        margin-right: 10px;
+    }
+    #_desktop_clientservice {
+        margin-left: 10px;
+    }
+    #header.header5 .header-right {
+        padding-left: 0;
+    }
+    #header.header5 .amenu-item .amenu-link {
+        padding: 16px 15px 18px 0;
+    }
+    #header.header5 #_desktop_cart {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    #header.header5 #_desktop_an_wishlist-nav {
+        margin-left: 15px;
+    }
+    #_desktop_cart svg,
+    #header.header5 #_desktop_an_wishlist-nav a svg,
+    #_desktop_user_info svg {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    #header .header-nav {
+        margin-bottom: 0!important;;
+    }
+    #header .header-top {
+        background: #fff!important;;
+    }
+
+    #header.header5 .search-button-wrapper,
+    .topmenu-wrapper,
+    #_desktop_language_selector,
+    #_desktop_currency_selector,
+    #header.header5 .blockcart-link span,
+    #_desktop_user_info,
+    #_desktop_an_wishlist-nav,
+    #_desktop_clientservice,
+    #header.header5 #_desktop_contact_link {
+        display: none;
+    }
+    #header.header5 .header-right {
+        height: auto;
+    }
+    #header.header5 .search-widget {
+        display: block;
+        position: relative;
+        border: 0;
+        padding: 0 5px;
+        z-index: 1;
+    }
+    #header.header5 .search-widget form input[type=text] {
+        border: 1px solid #e5e5e5;
+        background: #f9f9f9;
+        border-radius: 5px;
+        padding: 7px 30px 9px 10px;
+        margin-bottom: 10px;
+    }
+    #header.header5 .search-widget form button[type=submit] {
+        bottom: 9px;
+        right: 10px;
+    }
+    #header.header5 .search-widget form button[type=submit] {
+        bottom: calc(50% - 6px);
+        top: unset;
+        right: 15px;
+    }
+}

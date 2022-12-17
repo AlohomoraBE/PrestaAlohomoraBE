@@ -1,0 +1,28 @@
+name: Banner Type 1
+description: 
+enabled_text: true
+required_text: false
+enabled_image: true
+enabled_link: true
+css:
+  -
+  path: views/templates/front/bannertype1/css/bannertype1.css
+fields:
+  -
+    col: 1
+    type: select
+    name: textpostion
+    label: Text Position
+    options:
+      query:
+        -
+            name: left
+            value: left
+        -
+            name: center
+            value: center
+        -
+            name: right
+            value: right
+      id: value
+      name: name

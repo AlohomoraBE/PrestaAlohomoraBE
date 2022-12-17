@@ -1,0 +1,68 @@
+/**
+ * 2022 Anvanto
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ *  @author Anvanto <anvantoco@gmail.com>
+ *  @copyright  2022 Anvanto
+ *  @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of Anvanto
+ */
+
+.anaccordion-block {
+    margin-top: 30px;
+}
+.anaccordion-block .h2 {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: none;
+    margin-bottom: 23px;
+}
+.anaccordion-panel-head {
+    padding: 12px 18px;
+    background-color: #f5f6fa;
+    border: 1px solid #e3e5ec;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.anaccordion-panel-head-title {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: initial;
+}
+.anaccordion-panel-item {
+    margin-bottom: 2px;
+}
+.anaccordion-panel-body {
+    padding: 17px;
+    border: 1px solid #e3e5ec;
+    border-top: none;
+    display: none;
+}
+.anaccordion-panel-body p {
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.anaccordion-panel-head-title:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 10px;
+    height: 6px;
+    background: url(../img/arrow_open.png) no-repeat center;
+}
+.anaccordion-panel-head.open .anaccordion-panel-head-title:before {
+    transform: translate(0, -50%) rotate(180deg);
+}

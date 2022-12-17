@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/fastuser/data/www/master09.anvanto.com/lib" source-language="nl-NL" target-language="nl-NL" datatype="plaintext">
+    <body>
+      <trans-unit id="9084ac39ff314efca366f82703fe01f2">
+        <source>Our blog</source>
+        <target>Onze blog</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a5d491060952aa8ad5fdee071be752de">
+        <source>comments</source>
+        <target>Opmerkingen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9ae79c1fccd231ac7fbbf3235dbf6326">
+        <source>My wishlist</source>
+        <target>MIJN VERLANGLIJST</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c">
+        <source>Wishlist</source>
+        <target>Verlanglijst</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

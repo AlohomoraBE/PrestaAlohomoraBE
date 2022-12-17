@@ -1,0 +1,130 @@
+/**
+ * 2021 Anvanto
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ *  @author Anvanto <anvantoco@gmail.com>
+ *  @copyright  2021 Anvanto
+ *  @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of Anvanto
+ */
+.an_clientservice .clientservice-title {
+    margin: -29px;
+    padding: 27px 29px 24px;
+    background: #f3f3f3;
+    margin-bottom: 33px;
+    line-height: 1.2;
+    text-transform: none;
+    text-align: left;
+}
+.clientservice-item {
+    padding-bottom: 23px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 23px;
+}
+.clientservice-item:last-child {
+     border-bottom: 0;
+}
+.an_clientservice p {
+    text-align: left;
+    margin-bottom: 0;
+   
+}
+.an_clientservice h4 {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 700;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+.an_clientservice h4 svg {
+    margin-right: 10px;
+    margin-left: 1px;
+    width: 25px;
+}
+.client-separator {
+    height: 7px;
+}
+.an_clientservice a {
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #000!important;
+}
+.an_clientservice a:hover {
+    text-decoration: none;
+}
+    /*** modal ***/
+.clientservice_sg-open {
+    overflow: hidden;
+    
+}
+.clientservice_sg-cover {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    z-index: 100;
+    
+}
+  
+.clientservice_sg-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    overflow-x: none;
+    overflow-y: auto;
+    z-index: 200;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+.an_clientservice {
+    max-width: 340px;
+    width: 100%;
+    display: none;
+    min-width: 200px;
+    position: relative;
+    background-color: #fff;
+    z-index: 300;
+    padding: 29px;
+    float: right;
+    min-height: 100vh;
+    color: #000;
+}
+.clientservice_sg-btn-close {
+    font-size: 27px;
+    position: absolute;
+    top: 26px;
+    right: 25px;
+    cursor: pointer;
+    color: #000;
+}
+.clientservice_sg-btn-close:hover {
+    color: #949494;
+}
+
+.clientservice_open-modal-btn {
+    display: flex;
+    cursor: pointer;
+}
+
+.clientservice_open-modal-btn:hover {
+    color: #949494;
+	text-decoration: none;
+}

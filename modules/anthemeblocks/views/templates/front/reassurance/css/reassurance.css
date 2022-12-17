@@ -1,0 +1,30 @@
+
+.anthemeblocks-reassurance {
+  padding: 20px 0;
+}
+
+.anthemeblocks-reassurance ul {
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.anthemeblocks-reassurance ul li {
+  display: inline-block;
+  width: 33.333%;
+  vertical-align: middle;
+}
+
+.anthemeblocks-reassurance ul li img {
+  position: relative;
+  top: -1px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px){
+	.anthemeblocks-reassurance ul li {
+	  display: block;
+    text-align: left;
+    margin-bottom: 20px;
+	}
+}

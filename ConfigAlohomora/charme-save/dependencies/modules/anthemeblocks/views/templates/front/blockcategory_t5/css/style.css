@@ -1,0 +1,105 @@
+.anthemeblocks-staticblockcategory {
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.staticblockcategory-item{
+  position: relative;
+  overflow: hidden;
+}
+.staticblockcategory-item.staticblockcategory-item-big {
+
+    position: relative;
+
+}
+
+.staticblockcategory-item img {
+  transition: opacity .35s;
+    width: 100%;
+}
+.staticblockcategory-item .anthemeblocks-staticblockcategory-desc { 
+    position: absolute;
+    left: 18%;
+    right: 18%;
+    bottom: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(255,255,255,.9);
+}
+
+.anthemeblocks-staticblockcategory-desc h2 {
+    margin: -2px 0 5px;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2;
+    color: #000;
+}
+.anthemeblocks-staticblockcategory-desc p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+  .anthemeblocks-staticblockcategory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .staticblockcategory-item.staticblockcategory-item-big {
+    margin: 0 15px 30px;
+  }
+}
+@media (max-width: 600px) {
+  .staticblockcategory-item.staticblockcategory-item-big {
+    margin: 0 5px 30px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .staticblockcategory-item img {
+    width: 100%;
+  }
+
+}
+
+.staticblockcategory-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.staticblockcategory-item::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+
+.staticblockcategory-item:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}

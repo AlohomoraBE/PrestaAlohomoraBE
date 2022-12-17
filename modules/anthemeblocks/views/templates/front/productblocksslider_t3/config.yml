@@ -1,0 +1,22 @@
+name: Product Blocks Slider type 3
+enabled_text: false
+required_text: false
+enabled_link: false
+enabled_image: false
+css:
+    -
+      path: views/css/owl.carousel.min.css
+      priority: 200
+      position: head
+      server: local
+    -
+      path: views/templates/front/productblocksslider_t3/css/productblocksslider.css
+      priority: 200
+      position: head
+      server: local 
+js:
+    -
+      path: views/templates/front/productblocksslider_t3/js/productblocksslider.js
+      priority: 250
+      media: screen
+      server: local

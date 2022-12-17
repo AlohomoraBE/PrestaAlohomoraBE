@@ -1,0 +1,78 @@
+/**
+ * 2021 Anvanto
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ *  @author Anvanto <anvantoco@gmail.com>
+ *  @copyright  2021 Anvanto
+ *  @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of Anvanto
+ */
+@media (max-width: 768px) {
+    #an_bootstraptabs .nav-tabs li {
+     width: 100%;
+    }
+}
+#an_bootstraptabs img,
+.tab-content img {
+    max-width: 100%;
+    height: auto;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.an_input_q {
+    width: 35px;
+}
+.accordion16 button {
+    position:relative;
+    padding-left:15px;
+}
+.accordion16 .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f106";
+    position:absolute;
+    left:0px;
+    top:3px;
+    font-size:18px;
+    color: grey;
+}
+.accordion16 .accordion-toggle.collapsed:after {
+    content: "\f107";
+}
+#accordion .btn.active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#accordion .btn:focus {
+    outline:none;
+}
+.nav.nav-tabs{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+    .tabs .nav-tabs .nav-item{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 600px) {
+    .tabs .nav-tabs .nav-item{
+        width: 100%;
+    }
+}

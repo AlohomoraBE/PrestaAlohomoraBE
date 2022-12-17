@@ -1,0 +1,1 @@
+<p style="text-align: center;"><img src="{$imgPath}an_realtimevisitorcounter.jpg" alt="" /></p>

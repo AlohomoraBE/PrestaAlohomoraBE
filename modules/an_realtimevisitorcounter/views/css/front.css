@@ -1,0 +1,41 @@
+/**
+ * 2021 Anvanto
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ *  @author Anvanto <anvantoco@gmail.com>
+ *  @copyright  2021 Anvanto
+ *  @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of Anvanto
+ */
+.an_realtimevisitorcounter-block {
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+.an_realtimevisitorcounter-block-text {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1;
+}
+.an_realtimevisitorcounter-block .an_realtimevisitorcounter-block-text .an_realtimevisitorcounter-label_visitors,
+.an_realtimevisitorcounter-block .an_realtimevisitorcounter-block-text .an_realtimevisitorcounter-label {
+    padding-bottom: 2px;
+    font-size: 1rem;
+}
+
+.an_realtimevisitorcounter-counter {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #fff;
+    background: #000;
+}
