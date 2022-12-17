@@ -1,0 +1,50 @@
+a. Doda do koszyka 10 produktów (w różnych ilościach) z dwóch różnych kategorii,
+- otwórz stronę produktu, 
+- spisz ilość dostępnych produktów n
+- wybierz między 1 do n produktów
+- dodaj do koszyka
+- sprawdź czy otworzył się koszyk i czy produkty pojawiły się w prawidłowej ilości
+- powtórz dla 10 produktów
+
+b. Usunie z koszyka 1 produkt,
+- otwórz koszyk
+- sprawdź czy coś jest w koszyku
+- znajdź pierwszy element
+- usuń go
+- sprawdź czy element wciaż jest na liście
+
+c. Przejdzie przez proces rejestracji nowego konta,
+- Kontynuuj zakupy
+- stwórz nowe konto
+- wypełnij formularz z losowym mailem
+- zapisz formularz (stwórz konto)
+- sprawdź czy nowy użytkowenik został automatycznie zalogowany 
+
+d. Wybierze płatność przy odbiorze,
+- wybierz płatność przelewem
+- sprawdź czy płatność została wybrana
+
+e. Wybierze jednego z dwóch przewoźników,
+brak
+
+f. Zatwierdzi zamówienie,
+
+
+g. Sprawdzi status zamówienia.
+
+
+Produkty
+https://prestaprojectone.bajer.me/kinkiety/501-kinkiet-nero-czarny-zloty.html
+https://prestaprojectone.bajer.me/kinkiety/506-kinkiet-ceramiczny-samir-bialy.html
+https://prestaprojectone.bajer.me/kinkiety/503-4-kinkiet-duomo.html#/29-zrodla_swiatla-1_zrodlo
+https://prestaprojectone.bajer.me/kinkiety/504-1-kinkiet-massimo-chrom.html#/26-barwa_swiatla-biale_ciepla
+https://prestaprojectone.bajer.me/kinkiety/505-kinkiet-emilio.html
+https://prestaprojectone.bajer.me/kinkiety/553-6-plafon-azalia.html#/30-zrodla_swiatla-2_zrodla
+https://prestaprojectone.bajer.me/kinkiety/556-kinkiet-zeke-dab.html
+https://prestaprojectone.bajer.me/kinkiety/557-plafon-piazza-4-chrom.html
+https://prestaprojectone.bajer.me/kinkiety/559-plafon-piazza-3-chrom.html
+https://prestaprojectone.bajer.me/kinkiety/565-plafon-solar-40-chrom.html
+
+
+
+
